@@ -6,7 +6,10 @@ function getReposPageHtml(url, topic){
     function cb(err, response, html){
         if(err){
             console.log(err);
-        }else{
+        }else if(response.statusCode == 404){
+            console.log("page not found");
+        }
+        else{
             // console.log(html);
             getReposLink(html);
         }

@@ -7,6 +7,8 @@ request(url, cb);
 function cb(err, response, html){
     if(err){
         console.log(err);
+    }else if(response.statusCode == 404){
+        console.log("page not found");
     }else{
         // console.log(html);
         getTopicLinks(html);
