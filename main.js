@@ -21,9 +21,11 @@ function getTopicLinks(html){
     for(let i =0; i < linkElementArr.length; i++ ){
         let href = $(linkElementArr[i]).attr("href");
         // console.log(href);
+        let topic = href.split("/").pop();
+        // console.log(topic);
         fullLink = `https://github.com${href}`;
         // console.log(fullHref);
-        getReposPageHtml(fullLink);
+        getReposPageHtml(fullLink, topic);
     }
 
 }
