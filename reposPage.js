@@ -24,13 +24,13 @@ function getReposPageHtml(url, topic){
             let anchorArr = $(headingArr[i]).find("a");
             let link = $(anchorArr[1]).attr("href");
             // console.log(link);
-            let repo = link.split("/").pop();
-            console.log(`repo name: ${repo}`);
+            let repoName = link.split("/").pop();
+            console.log(`repo name: ${repoName}`);
             let fullLinkUrl = `https://github.com/${link}`;
             // console.log(fullLinkUrl);
             let fullLink = `${fullLinkUrl}/issues`;
             console.log(`issues url: ${fullLink}`);
-            getIssuesPageHtml(fullLink, topic);
+            getIssuesPageHtml(fullLink, topic, repoName);
 
 
         }

@@ -6,3 +6,5 @@
 // git init
 //git status, git add, git commit -m "commit message"
 // git push
+// npm i fs
+//npm i path
