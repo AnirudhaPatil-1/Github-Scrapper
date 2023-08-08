@@ -14,32 +14,10 @@ The GitHub Trending Topics Scraper is a Python-based web scraping tool that allo
 - Identifies top repositories within the trending topics.
 - Scrapes issues from the identified repositories.
 - Organizes issues into PDF files.
-- Intuitive command-line interface for user interaction.
-- Generates a well-structured `readme.md` file.
-
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/github-trending-scraper.git
-   cd github-trending-scraper
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Scraper:**
-   ```bash
-   python scraper.py --topics <number_of_topics> --repos <number_of_repos> --issues <number_of_issues>
-   ```
-
-4. **Generated PDFs:**
-   The scraped issues will be saved as PDF files within topic-specific folders in the `output` directory.
 
 ## Example Usage
 
+eg.
 ```bash
 python scraper.py --topics 3 --repos 5 --issues 10
 ```
