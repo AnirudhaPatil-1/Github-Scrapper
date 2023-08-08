@@ -2,6 +2,7 @@
 
 # Demo Image
 
+![gitScrapperCropped](https://github.com/AnirudhaPatil-1/Github-Scrapper/assets/73242321/c746bd2e-38e9-4a03-95bc-288133bf6a6f)
 
 ## Project Description
 
