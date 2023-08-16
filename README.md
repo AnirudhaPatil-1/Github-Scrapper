@@ -4,13 +4,13 @@
 
 ![github scrapper output image](https://github.com/AnirudhaPatil-1/Github-Scrapper/assets/73242321/0be2b8a2-2ef9-4e8b-a6ef-46051c4ba069)
 
-## Technology Used
-
-*_HTML, CSS, JavaScript, Cheerio/Puppeteer_*
-
 ## Project Description
 
 The GitHub Trending Topics Scraper is a web scraping tool that allows you to explore trending topics on GitHub, identify top repositories within those topics, scrape their issues using Cheerio, and organize the collected issues into PDF files named after the repository, all within a dedicated folder named after the topic. This project provides an efficient way to stay updated with the latest and most relevant discussions happening within the GitHub community.
+
+## Technology Used
+
+*_HTML, CSS, JavaScript, Cheerio/Puppeteer_*
 
 ## Features
 
@@ -86,8 +86,35 @@ output/
 In this combined output, each topic folder contains 5 sample PDFs, named "Repo1.pdf" to "Repo5.pdf," and each PDF consists of the respective repository's issues.
 
 ## Actual Ouput
-```
 
+```
+laravel
+- Cachet.pdf
+- framework.pdf
+- koel.pdf
+- laravel-debugbar.pdf
+- laravel.pdf
+- monica.pdf
+
+qt
+- PySimpleGUI.pdf
+- cool-retro-term.pdf
+- flameshot.pdf
+- matplotlib.pdf
+- openage.pdf
+- qt.pdf
+- tiled.pdf
+- urh.pdf
+
+unity
+- 3d-game-shaders-for-beginners.pdf
+- AssetStudio.pdf
+- ET.pdf
+- ILSpy.pdf
+- jynew.pdf
+- lively.pdf
+- ml-agents.pdf
+- xLua.pdf
 ```
 
 Remember to replace placeholders such as `<GitHub repository URL>` with your actual information.
